@@ -12,7 +12,7 @@
 // }    
 // const result = new Evenodd (616176976);
 // console.log(result.showEvenodd());
-// //export Evenodd();
+// //export {Evenodd};
 
 class Evenodd {
     constructor(num) {
