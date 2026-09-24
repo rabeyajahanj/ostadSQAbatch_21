@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Class Demo</title>
+</head>
+<body>
+    <h1>Parent and Child Class Demo</h1>
+    <p id="output"></p>
+
+    <script type="module">
+        import { Shape } from "./ClassThirdforth.js";
+
+        class Circle extends Shape {
+            showCircle() {
+                return this.width * this.height;
+            }
+        }
+
+        const result = new Circle();
+        const message = `Width: ${result.width}, Height: ${result.height}, Area: ${result.showCircle()}`;
+
+        document.getElementById("output").textContent = message;
+        console.log(message);
+    </script>
+</body>
+</html>
