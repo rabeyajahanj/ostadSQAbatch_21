@@ -1,20 +1,54 @@
-# Version Control with Git & AI Workflows
+# JavaScript Programming Practice
 
-## Module Overview
+## Overview
 
-This module covers Git, GitHub, version control, and AI-assisted development workflows.
+This folder contains JavaScript practice assignments designed to improve programming fundamentals and problem-solving skills.
 
-## Learning Objectives
+## Topics Practiced
 
-- Understand version control.
-- Create and manage Git repositories.
-- Track file changes.
-- Create commits.
-- Work with branches.
-- Connect local repositories to GitHub.
-- Push and pull changes.
-- Use `.gitignore`.
-- Use AI tools for documentation, coding, and QA support.
+- Variables and data types
+- Functions
+- Conditional statements
+- Loops
+- Numbers
+- Even and odd numbers
+- Factorial
+- FizzBuzz
+- Temperature conversion
+- Strings
+- Reverse strings
+- Palindromes
+- Vowels
+- Arrays
+- Sum of array values
+- Finding the largest number
+- Finding duplicate values
+- Classes and constructors
+- Inheritance
+
+## Files
+
+- `EvenOdd.js`
+- `Factorialnumber.js`
+- `FizzBuzz.js`
+- `celciousFaren.js`
+- `sumArray.js`
+- `largestNumber.js`
+- `reverseString.js`
+- `palindrom.js`
+- `stringVowels.js`
+- `countDuplicates.js`
+- `numberCheck.js`
+- `numberEvenorodd.js`
+- `parentString.js`
+- `checkLargeone.js`
+
+## How to Run
+
+Use Node.js:
+
+```powershell
+node "Factorialnumber.js"
 
 ## Git Commands Practiced
 
