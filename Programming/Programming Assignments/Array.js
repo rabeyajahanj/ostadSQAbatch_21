@@ -30,4 +30,4 @@ class Duplicates{
         return `Duuplicates name's  : ${this.duplicates}`;
     }
 }
-export default Duplicates;
+export {Duplicates};
